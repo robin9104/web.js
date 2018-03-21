@@ -7,8 +7,8 @@
 
 * Samples
 
--http://163.239.76.204/
+  -http://163.239.76.204/
 
--http://163.239.76.204/update?api_key=zaSDkfmasd&field1=24.64
+  -http://163.239.76.204/update?api_key=zaSDkfmasd&field1=24.64
 
--http://163.239.76.204/get?count=5
+  -http://163.239.76.204/get?count=5
