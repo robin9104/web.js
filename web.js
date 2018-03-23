@@ -16,7 +16,7 @@ app.get('/update', function(req, res) {
 app.get('/get', function(req,res) {
 	var arr2=""	
 	var arr = fs.readFileSync('log.txt').toString().split("\n")
-	for(var i = 0 ; i < parseInt(Object.values(req.query)) ; i++){
+	for(var i =  0 ; i < arr.length ; i++){
 		arr2 = arr2 + arr[i]+"<br>" 
 		console.log(arr[i])
 	}
